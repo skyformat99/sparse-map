@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>robin-map: tsl Namespace Reference</title>
+<title>sparse-map: tsl Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">robin-map
+   <div id="projectname">sparse-map
    </div>
   </td>
  </tr>
@@ -48,26 +48,28 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacetsl_1_1detail__robin__hash"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetsl_1_1detail__robin__hash.html">detail_robin_hash</a></td></tr>
+<tr class="memitem:namespacetsl_1_1detail__popcount"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetsl_1_1detail__popcount.html">detail_popcount</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacetsl_1_1rh"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetsl_1_1rh.html">rh</a></td></tr>
+<tr class="memitem:namespacetsl_1_1detail__sparse__hash"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetsl_1_1detail__sparse__hash.html">detail_sparse_hash</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacetsl_1_1sh"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetsl_1_1sh.html">sh</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtsl_1_1robin__map.html">robin_map</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtsl_1_1sparse__map.html">sparse_map</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtsl_1_1robin__set.html">robin_set</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtsl_1_1sparse__set.html">sparse_set</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a34add5a78d6478dcfd62fc4f8115275f"><td class="memTemplParams" colspan="2">template&lt;class Key , class T , class Hash  = std::hash&lt;Key&gt;, class KeyEqual  = std::equal_to&lt;Key&gt;, class Allocator  = std::allocator&lt;std::pair&lt;Key, T&gt;&gt;, bool StoreHash = false&gt; </td></tr>
-<tr class="memitem:a34add5a78d6478dcfd62fc4f8115275f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetsl.html#a34add5a78d6478dcfd62fc4f8115275f">robin_pg_map</a> = <a class="el" href="classtsl_1_1robin__map.html">robin_map</a>&lt; Key, T, Hash, KeyEqual, Allocator, StoreHash, <a class="el" href="classtsl_1_1rh_1_1prime__growth__policy.html">tsl::rh::prime_growth_policy</a> &gt;</td></tr>
-<tr class="separator:a34add5a78d6478dcfd62fc4f8115275f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1759c0a9b912525afb26236b4fb763e8"><td class="memTemplParams" colspan="2">template&lt;class Key , class Hash  = std::hash&lt;Key&gt;, class KeyEqual  = std::equal_to&lt;Key&gt;, class Allocator  = std::allocator&lt;Key&gt;, bool StoreHash = false&gt; </td></tr>
-<tr class="memitem:a1759c0a9b912525afb26236b4fb763e8"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetsl.html#a1759c0a9b912525afb26236b4fb763e8">robin_pg_set</a> = <a class="el" href="classtsl_1_1robin__set.html">robin_set</a>&lt; Key, Hash, KeyEqual, Allocator, StoreHash, <a class="el" href="classtsl_1_1rh_1_1prime__growth__policy.html">tsl::rh::prime_growth_policy</a> &gt;</td></tr>
-<tr class="separator:a1759c0a9b912525afb26236b4fb763e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062e367899bb4272d12d86de03aadbd9"><td class="memTemplParams" colspan="2">template&lt;class Key , class T , class Hash  = std::hash&lt;Key&gt;, class KeyEqual  = std::equal_to&lt;Key&gt;, class Allocator  = std::allocator&lt;std::pair&lt;Key, T&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a062e367899bb4272d12d86de03aadbd9"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetsl.html#a062e367899bb4272d12d86de03aadbd9">sparse_pg_map</a> = <a class="el" href="classtsl_1_1sparse__map.html">sparse_map</a>&lt; Key, T, Hash, KeyEqual, Allocator, <a class="el" href="classtsl_1_1sh_1_1prime__growth__policy.html">tsl::sh::prime_growth_policy</a> &gt;</td></tr>
+<tr class="separator:a062e367899bb4272d12d86de03aadbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6ca93c721c70493021e68bb0fc7973"><td class="memTemplParams" colspan="2">template&lt;class Key , class Hash  = std::hash&lt;Key&gt;, class KeyEqual  = std::equal_to&lt;Key&gt;, class Allocator  = std::allocator&lt;Key&gt;&gt; </td></tr>
+<tr class="memitem:afa6ca93c721c70493021e68bb0fc7973"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetsl.html#afa6ca93c721c70493021e68bb0fc7973">sparse_pg_set</a> = <a class="el" href="classtsl_1_1sparse__set.html">sparse_set</a>&lt; Key, Hash, KeyEqual, Allocator, <a class="el" href="classtsl_1_1sh_1_1prime__growth__policy.html">tsl::sh::prime_growth_policy</a> &gt;</td></tr>
+<tr class="separator:afa6ca93c721c70493021e68bb0fc7973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>MIT License</p>
@@ -76,37 +78,37 @@ Typedefs</h2></td></tr>
 <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a34add5a78d6478dcfd62fc4f8115275f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34add5a78d6478dcfd62fc4f8115275f">&#9670;&nbsp;</a></span>robin_pg_map</h2>
+<a id="a062e367899bb4272d12d86de03aadbd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a062e367899bb4272d12d86de03aadbd9">&#9670;&nbsp;</a></span>sparse_pg_map</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class Key , class T , class Hash  = std::hash&lt;Key&gt;, class KeyEqual  = std::equal_to&lt;Key&gt;, class Allocator  = std::allocator&lt;std::pair&lt;Key, T&gt;&gt;, bool StoreHash = false&gt; </div>
+template&lt;class Key , class T , class Hash  = std::hash&lt;Key&gt;, class KeyEqual  = std::equal_to&lt;Key&gt;, class Allocator  = std::allocator&lt;std::pair&lt;Key, T&gt;&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacetsl.html#a34add5a78d6478dcfd62fc4f8115275f">tsl::robin_pg_map</a> = typedef <a class="el" href="classtsl_1_1robin__map.html">robin_map</a>&lt;Key, T, Hash, KeyEqual, Allocator, StoreHash, <a class="el" href="classtsl_1_1rh_1_1prime__growth__policy.html">tsl::rh::prime_growth_policy</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespacetsl.html#a062e367899bb4272d12d86de03aadbd9">tsl::sparse_pg_map</a> = typedef <a class="el" href="classtsl_1_1sparse__map.html">sparse_map</a>&lt;Key, T, Hash, KeyEqual, Allocator, <a class="el" href="classtsl_1_1sh_1_1prime__growth__policy.html">tsl::sh::prime_growth_policy</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Same as <code><a class="el" href="classtsl_1_1robin__map.html">tsl::robin_map</a>&lt;Key, T, Hash, KeyEqual, Allocator, StoreHash, <a class="el" href="classtsl_1_1rh_1_1prime__growth__policy.html">tsl::rh::prime_growth_policy</a>&gt;</code>. </p>
+<p>Same as <code><a class="el" href="classtsl_1_1sparse__map.html">tsl::sparse_map</a>&lt;Key, T, Hash, KeyEqual, Allocator, <a class="el" href="classtsl_1_1sh_1_1prime__growth__policy.html">tsl::sh::prime_growth_policy</a>&gt;</code>. </p>
 
 </div>
 </div>
-<a id="a1759c0a9b912525afb26236b4fb763e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1759c0a9b912525afb26236b4fb763e8">&#9670;&nbsp;</a></span>robin_pg_set</h2>
+<a id="afa6ca93c721c70493021e68bb0fc7973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa6ca93c721c70493021e68bb0fc7973">&#9670;&nbsp;</a></span>sparse_pg_set</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class Key , class Hash  = std::hash&lt;Key&gt;, class KeyEqual  = std::equal_to&lt;Key&gt;, class Allocator  = std::allocator&lt;Key&gt;, bool StoreHash = false&gt; </div>
+template&lt;class Key , class Hash  = std::hash&lt;Key&gt;, class KeyEqual  = std::equal_to&lt;Key&gt;, class Allocator  = std::allocator&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacetsl.html#a1759c0a9b912525afb26236b4fb763e8">tsl::robin_pg_set</a> = typedef <a class="el" href="classtsl_1_1robin__set.html">robin_set</a>&lt;Key, Hash, KeyEqual, Allocator, StoreHash, <a class="el" href="classtsl_1_1rh_1_1prime__growth__policy.html">tsl::rh::prime_growth_policy</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespacetsl.html#afa6ca93c721c70493021e68bb0fc7973">tsl::sparse_pg_set</a> = typedef <a class="el" href="classtsl_1_1sparse__set.html">sparse_set</a>&lt;Key, Hash, KeyEqual, Allocator, <a class="el" href="classtsl_1_1sh_1_1prime__growth__policy.html">tsl::sh::prime_growth_policy</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Same as <code><a class="el" href="classtsl_1_1robin__set.html">tsl::robin_set</a>&lt;Key, Hash, KeyEqual, Allocator, StoreHash, <a class="el" href="classtsl_1_1rh_1_1prime__growth__policy.html">tsl::rh::prime_growth_policy</a>&gt;</code>. </p>
+<p>Same as <code><a class="el" href="classtsl_1_1sparse__set.html">tsl::sparse_set</a>&lt;Key, Hash, KeyEqual, Allocator, <a class="el" href="classtsl_1_1sh_1_1prime__growth__policy.html">tsl::sh::prime_growth_policy</a>&gt;</code>. </p>
 
 </div>
 </div>
